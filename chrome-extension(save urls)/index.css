@@ -24,3 +24,22 @@ button{
     padding-bottom: 10px;
     padding-top: 10px;*/
 }
+
+/*style lists*/
+
+ul {
+    margin-top: 20px ;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+li {
+    margin-top: 5px;
+
+}
+/*li a  is used for saying that all the elements a in an li has those characteristics*/
+li a  {
+    color: #5f9341;
+
+}
