@@ -1,0 +1,26 @@
+body{
+    margin : 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+Adds apace in the input tag
+*/
+input{
+    width: 100%; /* 100% + 10px + 10px*/
+    
+    padding: 10px;
+    box-sizing: border-box;/* with this i have padding*/
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button{
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    /*
+    padding-right: 20px; 
+    padding-bottom: 10px;
+    padding-top: 10px;*/
+}
