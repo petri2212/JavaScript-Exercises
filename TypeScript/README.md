@@ -1,5 +1,5 @@
 # Useful commads
-- Install node.js, in the vs code terminal run `npm typescript -g`(-g stands for global)
+- Install node.js, in the vs code terminal run `npm i typescript -g`(-g stands for global)
 - Move to your folder with cd
 - Create a main.ts file(ts stands for typescript), in the terminal run `tsc main.ts`, it will create a main.js file(it utilize var because is setting up like that) (create the .html as well xD)
 ## Setting up che project tree
