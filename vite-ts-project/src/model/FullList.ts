@@ -32,7 +32,7 @@ export default class FullList implements List {
     }
 
     save(): void{
-        localStorage.setitem("myList", JSON.stringify(this._list))
+        localStorage.setItem("myList", JSON.stringify(this._list))
     }
 
     clearList(): void{

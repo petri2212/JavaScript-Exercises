@@ -9,7 +9,7 @@ export default class ListItem implements Item{
     constructor(
         private _id: string,
         private _item: string,
-        private _checked: boolean,
+        private _checked: boolean = false,
     ){}
 
     get id(): string{
@@ -31,7 +31,7 @@ export default class ListItem implements Item{
     get checked(): boolean {
         return this._checked
     }
-        
+
     set checked(checked: boolean) {
         this._checked = checked
     }
